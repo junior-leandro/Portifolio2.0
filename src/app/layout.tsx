@@ -1,8 +1,13 @@
+import { Header } from '@/components/Header'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Lato } from 'next/font/google'
+import Home from './page'
 
-const inter = Inter({ subsets: ['latin'] })
+const lato = Lato({ 
+  subsets: ['latin'],
+  weight:['400', '700']
+})
 
 export const metadata: Metadata = {
   title: 'junior.dev.br | Portifólio',
@@ -15,8 +20,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-BR" className='bg-primary-blue'>
+      <Header />
+      <Home />
     </html>
   )
 }
