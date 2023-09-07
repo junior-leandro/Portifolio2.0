@@ -1,35 +1,45 @@
 import Image from "next/image";
-import Logo from '@/assets/logo_black.png'
+import Logo from '@/assets/logo-x_black.png'
+import { ItemMenu } from "./ItemMenu";
+import { ItemMenuSeecundary } from "./ItemMenuSecundary";
 
 export function Header() {
     return (
         <header className="w-full h-20 bg-primary-blue">
-            <div className="w-full max-w-[1246px] p-4 mx-auto">
-                <div>
-                    <div className="flex items-end gap-24">
-                        <Image
-                            src={Logo}
-                            alt="logo"
-                            width={80}
-                            height={80}
-                        />
+            <div className="w-full max-w-[1980px] p-4 mx-auto">
+                <div className="flex justify-between items-center">
+                    <div className="flex items-center gap-6">
+                        <a href="http://www.junior.dev.br">
+                            <Image
+                                src={Logo}
+                                alt="logo"
+                                width={200}
+                            />
+                        </a>
+                        <span className="text-primary-gray "> | </span>
                         <ul className="flex flex-row gap-8">
                             <li>
-                                <button className="flex items-center gap-3">
-                                    <span className="text-white font-bold">Projetos</span>
-                                </button>
+                                <ItemMenu
+                                    name='Projetos' />
                             </li>
                             <li>
-                                <button className="flex items-center gap-3">
-                                    <span className="text-white font-bold">Tecnologias</span>
-                                </button>
+                                <ItemMenu
+                                    name='Tecnologias' />
                             </li>
                             <li>
-                                <button className="flex items-center gap-3">
-                                    <span className="text-white font-bold">Contato</span>
-                                </button>
+                                <ItemMenu
+                                    name='Contato' />
+                            </li>
+                            <li>
+                                <ItemMenu
+                                    name='FAQ' />
                             </li>
                         </ul>
+
+
+                    </div>
+                    <div className="">
+                        <ItemMenuSeecundary />
                     </div>
                 </div>
             </div>

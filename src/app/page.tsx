@@ -1,19 +1,17 @@
 import Image from 'next/image'
+import Logo from '@/assets/logo_black.png'
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center p-24 ">
+    <main className="flex flex-col items-center justify-center p-24">
+      <Image
+      src={Logo}
+      alt='logo'
+      width={500}
+      height={500}
+      />
 
-      <div >
-        <Image
-          className="relative"
-          src="/logo_black.png"
-          alt="junior.dev.br Logo"
-          width={350}
-          height={350}
-          priority
-        />
-      </div>
+<span className=' text-primary-gray my-10'> Em Desenvolvimento...</span>
     </main>
   )
 }
