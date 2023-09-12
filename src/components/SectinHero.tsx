@@ -4,20 +4,20 @@ import Trophy from "@/assets/trophy.png";
 
 import Logo from "@/assets/logo_black.png"
 
-export function Banner() {
+export function SectionHero() {
     return (
 
         <div className="h-full w-full flex">
             <div className="h-full w-1/2">
                 <div className="flex px-10 py-16 justify-between items-center">
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col gap-2 items-center">
                         <Image
                             src={Rating}
                             alt="Estrelas"
                         />
-                        <span className="text-primary-gray">100+ Projetos Customizados</span>
+                        <span className="text-primary-gray">999+ Projetos Customizados</span>
                     </div>
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col gap-2 items-center">
                         <Image
                             src={Trophy}
                             alt="Troféu"
@@ -36,10 +36,12 @@ export function Banner() {
                 </div>
             </div>
 
-            <div className="h-full w-1/2">
+            <div className="h-full w-1/2 flex items-center justify-center">
                 <Image
                 src={Logo}
-                alt="banner"/>
+                alt="banner"
+                width={700}
+                height={700}/>
             </div>
         </div>
     )
