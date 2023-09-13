@@ -3,6 +3,7 @@ import Rating from "@/assets/rating.png";
 import Trophy from "@/assets/trophy.png";
 
 import Logo from "@/assets/logo_black.png"
+import { GaleryLoop } from "./GaleryLoop";
 
 export function SectionHero() {
     return (
@@ -10,14 +11,14 @@ export function SectionHero() {
         <div className="h-full w-full flex">
             <div className="h-full w-1/2">
                 <div className="flex px-10 py-16 justify-between items-center">
-                    <div className="flex flex-col gap-2 items-center">
+                    <div className="flex flex-col gap-2 items-left">
                         <Image
                             src={Rating}
                             alt="Estrelas"
                         />
                         <span className="text-primary-gray">999+ Projetos Customizados</span>
                     </div>
-                    <div className="flex flex-col gap-2 items-center">
+                    <div className="flex flex-col gap-2 items-left">
                         <Image
                             src={Trophy}
                             alt="Troféu"
@@ -37,11 +38,8 @@ export function SectionHero() {
             </div>
 
             <div className="h-full w-1/2 flex items-center justify-center">
-                <Image
-                src={Logo}
-                alt="banner"
-                width={700}
-                height={700}/>
+                
+                <GaleryLoop />
             </div>
         </div>
     )

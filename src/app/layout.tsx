@@ -3,6 +3,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Lato } from 'next/font/google'
 import { SectionHero } from '@/components/SectinHero'
+import { GaleryLoop } from '@/components/GaleryLoop'
 
 const lato = Lato({ 
   subsets: ['latin'],
