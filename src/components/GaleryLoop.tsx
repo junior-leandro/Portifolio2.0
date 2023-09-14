@@ -9,7 +9,7 @@ import Banner5 from '@/assets/banner-05.png'
 
 export function GaleryLoop() {
     return (
-        <div className="h-screen">
+        <div className="h-screen w-full mx-4">
             <div className="flex gap-3 mt-7 h-3/4">
                 <div className="overflow-hidden relative top-7">
                     <Image src={Banner1} alt="Banner Images"
