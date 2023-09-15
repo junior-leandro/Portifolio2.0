@@ -2,7 +2,6 @@ import Image from "next/image";
 import Rating from "@/assets/rating.png";
 import Trophy from "@/assets/trophy.png";
 
-import Logo from "@/assets/logo_black.png"
 import { GaleryLoop } from "./GaleryLoop";
 
 export function SectionHero() {
@@ -16,7 +15,7 @@ export function SectionHero() {
                             src={Rating}
                             alt="Estrelas"
                         />
-                        <span className="text-primary-gray">10+ Projetos Customizados</span>
+                        <span className="text-primary-gray">100+ Projetos Customizados</span>
                     </div>
                     <div className="flex flex-col gap-2 items-left">
                         <Image

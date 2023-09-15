@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Lato } from 'next/font/google'
 import { SectionHero } from '@/components/SectinHero'
 import { GaleryLoop } from '@/components/GaleryLoop'
+import { Qualities } from '@/components/Qualities'
 
 const lato = Lato({ 
   subsets: ['latin'],
@@ -24,6 +25,7 @@ export default function RootLayout({
     <html lang="pt-BR" className='bg-primary-blue'>
       <Header />
       <SectionHero />
+      <Qualities />
     </html>
   )
 }
