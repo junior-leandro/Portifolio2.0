@@ -7,9 +7,9 @@ import { GaleryLoop } from '@/components/GaleryLoop'
 import { Qualities } from '@/components/Qualities'
 import { Portifolio } from '@/components/Portifolio'
 
-const lato = Lato({ 
+const lato = Lato({
   subsets: ['latin'],
-  weight:['400', '700']
+  weight: ['400', '700']
 })
 
 export const metadata: Metadata = {
@@ -23,11 +23,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR" className='bg-primary-blue'>
-      <Header />
-      <SectionHero />
-      <Qualities />
-      <Portifolio />
+    <html lang="pt-BR" className='bg-primary-blue flex flex-col items-center'>
+      <body className=''>
+        <Header />
+        <SectionHero />
+        <Qualities />
+        <Portifolio />
+      </body>
     </html>
   )
 }

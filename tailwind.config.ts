@@ -9,8 +9,9 @@ const config: Config = {
   theme: {
 
     backgroundImage: {
-      'img_bg_hero': "url('../assets/logo-black.png')"
-
+      'img_bg_hero': "url('../assets/logo-black.png')",
+      'img_bg_contact': "url(..assets/contact-shape.png"
+ 
     },
 
     extend: {

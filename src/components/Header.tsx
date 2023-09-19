@@ -6,7 +6,7 @@ import { ItemMenuSeecundary } from "./ItemMenuSecundary";
 export function Header() {
     return (
         <header className="w-full h-20 bg-primary-blue">
-            <div className="w-full max-w-[1980px] p-4 mx-auto">
+            <div className="w-full max-w-[1800px] p-4 mx-auto">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center gap-6">
                         <a href="http://www.junior.dev.br">
