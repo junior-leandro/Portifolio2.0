@@ -6,6 +6,7 @@ import { SectionHero } from '@/components/SectinHero'
 import { GaleryLoop } from '@/components/GaleryLoop'
 import { Qualities } from '@/components/Qualities'
 import { Portifolio } from '@/components/Portifolio'
+import { Recursos } from '@/components/Recursos'
 
 const lato = Lato({
   subsets: ['latin'],
@@ -23,12 +24,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR" className='bg-primary-blue flex flex-col items-center'>
-      <body className=''>
+    <html lang="pt-BR" className='bg-primary-blue w-full  h-full flex flex-col items-center'>
+      <body className='w-full'>
         <Header />
         <SectionHero />
         <Qualities />
         <Portifolio />
+        <Recursos />
       </body>
     </html>
   )

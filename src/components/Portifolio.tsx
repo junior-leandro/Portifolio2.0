@@ -9,16 +9,16 @@ import ProfessionalService from '@/assets/professional-services.png'
 
 export function Portifolio() {
     return (
-        <section className="bg-secundary-blue h-full flex flex-col items-center">
+        <section className="bg-secundary-blue w-full flex flex-col items-center">
             <div className="w-full flex flex-col justify-center items-center my-10">
                 <span className="font-bold mt-4 bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">DEIXE O CÓDIGO COMIGO!</span>
                 <h2 className="font-bold mt-2 mb-5 text-4xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">SITES E PROJETOS DESENVOLVIDOS</h2>
-                <span className="font-semibold text-primary-gray text-xl">Escolha entre meus estilos ou personalize facilmente seu site seguindo suas ideias.</span>
-                <span className="font-semibold text-primary-gray text-xl">Mais demonstrações estarão disponíveis em breve.</span>
+                <span className="font-semibold text-primary-gray text-xl">Escolha entre meus estilos e personalize facilmente seu site seguindo suas ideias.</span>
+                <span className="font-semibold text-primary-gray text-xl">Ou vamos começar um projeto do zero!</span>
             </div>
-            <div className="max-w-[1800px] flex flex-col items-center">
+            <div className="w-full max-w-[1800px] flex flex-col items-center">
                 <div className="w-full flex items-center justify-around gap-6 px-8 cursor-pointer">
-                    <div className="rounded-lg flex flex-col items-center bg-primary-blue hover:scale-[1.02] transition-transform">
+                    <div className="rounded-lg flex flex-col items-center bg-primary-blue transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
                         <Image
                             src={PortifolioHome}
                             alt="banner"
@@ -26,7 +26,7 @@ export function Portifolio() {
                         />
                         <span className="text-primary-gray p-2">TEXTO DE EXEMPLO</span>
                     </div>
-                    <div className="rounded-lg flex flex-col items-center bg-primary-blue hover:scale-[1.02] transition-transform">
+                    <div className="rounded-lg flex flex-col items-center bg-primary-blue transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
                         <Image
                             src={DigitalAgency}
                             alt="banner"
@@ -34,7 +34,7 @@ export function Portifolio() {
                         />
                         <span className="text-primary-gray p-2">TEXTO DE EXEMPLO</span>
                     </div>
-                    <div className="rounded-lg flex flex-col items-center bg-primary-blue hover:scale-[1.02] transition-transform">
+                    <div className="rounded-lg flex flex-col items-center bg-primary-blue transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
                         <Image
                             src={DarkPersonal}
                             alt="banner"
@@ -44,9 +44,8 @@ export function Portifolio() {
                     </div>
                 </div>
 
-
                 <div className="w-full flex items-center justify-around gap-6 px-8 py-10 cursor-pointer">
-                    <div className="rounded-lg flex flex-col items-center bg-primary-blue hover:scale-[1.02] transition-transform">
+                    <div className="rounded-lg flex flex-col items-center bg-primary-blue transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
                         <Image
                             src={CorporateAgency}
                             alt="banner"
@@ -54,7 +53,7 @@ export function Portifolio() {
                         />
                         <span className="text-primary-gray p-2">TEXTO DE EXEMPLO</span>
                     </div>
-                    <div className="rounded-lg flex flex-col items-center bg-primary-blue hover:scale-[1.02] transition-transform">
+                    <div className="rounded-lg flex flex-col items-center bg-primary-blue transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
                         <Image
                             src={PersonalLandingPage}
                             alt="banner"
@@ -62,7 +61,7 @@ export function Portifolio() {
                         />
                         <span className="text-primary-gray p-2">TEXTO DE EXEMPLO</span>
                     </div>
-                    <div className="rounded-lg flex flex-col items-center bg-primary-blue hover:scale-[1.02] transition-transform">
+                    <div className="rounded-lg flex flex-col items-center bg-primary-blue transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
                         <Image
                             src={ProfessionalService}
                             alt="banner"

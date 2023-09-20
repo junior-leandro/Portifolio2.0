@@ -1,6 +1,6 @@
 export function Recursos() {
     return(
-        <section>
+        <section className="w-full h-96 flex flex-col items-center bg-primary-blue">
             <div>
 
             </div>
