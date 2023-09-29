@@ -18,7 +18,7 @@ export function Portifolio() {
             </div>
             <div className="w-full max-w-[1800px] flex flex-col items-center">
                 <div className="w-full flex items-center justify-around gap-6 px-8 cursor-pointer">
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
                             src={PortifolioHome}
                             alt="banner"
@@ -26,7 +26,7 @@ export function Portifolio() {
                         />
                         <span className="text-white font-bold p-2">Modelo de LandingPage</span>
                     </div>
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
                             src={DigitalAgency}
                             alt="banner"
@@ -34,7 +34,7 @@ export function Portifolio() {
                         />
                         <span className="text-white font-bold p-2">Agencia Digital</span>
                     </div>
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
                             src={DarkPersonal}
                             alt="banner"
@@ -45,7 +45,7 @@ export function Portifolio() {
                 </div>
 
                 <div className="w-full flex items-center justify-around gap-6 px-8 py-10 cursor-pointer">
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
                             src={CorporateAgency}
                             alt="banner"
@@ -53,7 +53,7 @@ export function Portifolio() {
                         />
                         <span className="text-white font-bold p-2">Agencia Corporativa</span>
                     </div>
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
                             src={PersonalLandingPage}
                             alt="banner"
@@ -61,7 +61,7 @@ export function Portifolio() {
                         />
                         <span className="text-white font-bold p-2">Portifólio Pessoal</span>
                     </div>
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
                             src={ProfessionalService}
                             alt="banner"
