@@ -15,6 +15,10 @@ const config: Config = {
     },
 
     extend: {
+      
+      boxShadow: {
+        'xl': '5px 0px 150px -80px rgba(107, 0, 254, 1)',
+      },
       colors: {
         'primary-blue': '#0d0d23',
         'secundary-blue': '#090918',

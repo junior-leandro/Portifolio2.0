@@ -5,7 +5,7 @@ import { Lato } from 'next/font/google'
 import { SectionHero } from '@/components/SectionHero'
 import { Qualities } from '@/components/Qualities'
 import { Portifolio } from '@/components/Portifolio'
-import { Recursos } from '@/components/Recursos'
+import { Projects } from '@/components/Projects'
 
 const lato = Lato({
   subsets: ['latin'],
@@ -29,7 +29,7 @@ export default function RootLayout({
         <SectionHero />
         <Qualities />
         <Portifolio />
-        <Recursos />
+        <Projects />
       </body>
     </html>
   )
