@@ -13,7 +13,7 @@ export function GaleryLoop() {
     return (
         <div className={styles.bannerGalleryWrapper}>
             <div className={styles.bannerGalleryLoop}>
-                <div className="flex gap-3 mt-7 h-3/4">
+                <div className="flex gap-3 mt-7 h-full">
                     <div className={styles.bannerGallery1}>
                         <Image src={Banner1} alt="Banner Images"
                         />

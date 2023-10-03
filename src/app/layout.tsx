@@ -2,6 +2,7 @@ import { Header } from '@/components/Header'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Lato } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import { SectionHero } from '@/components/SectionHero'
 import { Qualities } from '@/components/Qualities'
 import { Portifolio } from '@/components/Portifolio'
@@ -11,6 +12,13 @@ const lato = Lato({
   subsets: ['latin'],
   weight: ['400', '700']
 })
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+  weight: ['400', '500', '700', '800', '900'],
+})
+
 
 export const metadata: Metadata = {
   title: 'junior.dev.br | Portifólio',
@@ -23,11 +31,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR" className='bg-primary-blue w-full  h-full flex flex-col items-center'>
-      <body className='w-full'>
+    <html lang="pt-BR" className={montserrat.className}>
+      <body className='bg-primary-blue w-full  h-full flex flex-col items-center'>
         <Header />
         <SectionHero />
-        <Qualities />
         <Portifolio />
         <Projects />
       </body>
