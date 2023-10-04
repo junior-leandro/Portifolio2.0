@@ -19,8 +19,10 @@ export function Header() {
                         <span className="text-primary-gray "> | </span>
                         <ul className="flex flex-row gap-8">
                             <li>
+                                <a href="#portifolio">
                                 <ItemMenu
                                     name='Projetos' />
+                                </a>
                             </li>
                             <li>
                                 <ItemMenu

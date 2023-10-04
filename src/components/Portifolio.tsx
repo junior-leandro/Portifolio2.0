@@ -1,15 +1,15 @@
 import Image from "next/image";
 
-import PortifolioHome from '@/assets/demo-home.png'
-import DigitalAgency from '@/assets/digital-agency.png'
-import CorporateAgency from '@/assets/corporate-agency.png'
-import DarkPersonal from '@/assets/dark-personal-portfolio-landing.png'
-import PersonalLandingPage from '@/assets/personal-portfolio.png'
-import ProfessionalService from '@/assets/professional-services.png'
+import Portifolio1 from '@/assets/besthouses.jpg'
+import Portifolio2 from '@/assets/classicbarber.jpg'
+import Portifolio3 from '@/assets/juniordev.jpg'
+import Portifolio4 from '@/assets/mbconsult.jpg'
+import Portifolio5 from '@/assets/stereorock.jpg'
+import Portifolio6 from '@/assets/thiagaobarber.jpg'
 
 export function Portifolio() {
     return (
-        <section className="bg-secundary-blue w-full flex flex-col items-center">
+        <section className="bg-secundary-blue w-full flex flex-col items-center" id="portifolio">
             <div className="w-full flex flex-col justify-center items-center my-10">
                 <span className="font-bold mt-4 bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">DEIXE O CÓDIGO COMIGO!</span>
                 <h2 className="font-bold mt-2 mb-5 text-4xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">SITES E PROJETOS FRONTEND DESENVOLVIDOS</h2>
@@ -20,23 +20,25 @@ export function Portifolio() {
                 <div className="w-full flex items-center justify-around gap-6 px-8 cursor-pointer">
                     <div className="shadow-xl rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={PortifolioHome}
+                            src={Portifolio1}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Modelo de LandingPage</span>
+                        <a href="http://besthouses.com.br" target="_blank" className="text-white font-bold p-2">
+                            <span >Best Houses Ubatuba</span>
+                        </a>
                     </div>
                     <div className="shadow-xl rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={DigitalAgency}
+                            src={Portifolio2}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Agencia Digital</span>
+                        <span className="text-white font-bold p-2">Classic Barber</span>
                     </div>
                     <div className="shadow-xl rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={DarkPersonal}
+                            src={Portifolio3}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
@@ -47,27 +49,27 @@ export function Portifolio() {
                 <div className="w-full flex items-center justify-around gap-6 px-8 py-10 cursor-pointer">
                     <div className="shadow-xl rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={CorporateAgency}
+                            src={Portifolio4}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Agencia Corporativa</span>
+                        <span className="text-white font-bold p-2">M&B Consult Holding Familiar</span>
                     </div>
                     <div className="shadow-xl rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={PersonalLandingPage}
+                            src={Portifolio5}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Portifólio Pessoal</span>
+                        <span className="text-white font-bold p-2">Rádio Rock Stereo Rock</span>
                     </div>
                     <div className="shadow-xl rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={ProfessionalService}
+                            src={Portifolio6}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Agencia de Marketing</span>
+                        <span className="text-white font-bold p-2">Barbearia Thiagão Barber</span>
                     </div>
                 </div>
             </div>
