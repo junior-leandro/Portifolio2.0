@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import PortifolioHome from '@/assets/demo-home.png'
-import DigitalAgency from '@/assets/digital-agency.png'
-import CorporateAgency from '@/assets/corporate-agency.png'
-import DarkPersonal from '@/assets/dark-personal-portfolio-landing.png'
-import PersonalLandingPage from '@/assets/personal-portfolio.png'
-import ProfessionalService from '@/assets/professional-services.png'
+import Projeto1 from '@/assets/AluraPlus.jpg'
+import Projeto2 from '@/assets/CardForms.jpg'
+import Projeto3 from '@/assets/NasaProject.jpg'
+import Projeto4 from '@/assets/memorygame.jpg'
+import Projeto5 from '@/assets/NewsLetter.jpg'
+import Projeto6 from '@/assets/Spotify.jpg'
 
 export function Projects() {
     return (
@@ -16,58 +16,63 @@ export function Projects() {
             </div>
             <div className="w-full max-w-[1800px] mt-6 flex flex-col items-center">
                 <div className="w-full flex items-center justify-around gap-6 px-8 cursor-pointer">
+                    
                     <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={PortifolioHome}
+                            src={Projeto1}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Modelo de LandingPage</span>
+                        <span className="text-white font-bold p-2">Landing Page da Alura Plus</span>
                     </div>
                     <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={DigitalAgency}
+                            src={Projeto2}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Agencia Digital</span>
+                        <span className="text-white font-bold p-2">Formulário de cadastro de cartão</span>
                     </div>
                     <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={DarkPersonal}
+                            src={Projeto3}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Portifólio Profissional</span>
+                        <span className="text-white font-bold p-2">Projeto consumindo API da Nasa com Next.JS</span>
                     </div>
                 </div>
 
                 <div className="w-full flex items-center justify-around gap-6 px-8 py-10 cursor-pointer">
                     <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={CorporateAgency}
+                            src={Projeto4}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Agencia Corporativa</span>
+                        <span className="text-white font-bold p-2">MemoryGame com React</span>
                     </div>
                     <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={PersonalLandingPage}
+                            src={Projeto5}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Portifólio Pessoal</span>
+                        <span className="text-white font-bold p-2">Formulário de NewsLetter</span>
                     </div>
                     <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
                         <Image
-                            src={ProfessionalService}
+                            src={Projeto6}
                             alt="banner"
                             className=" rounded-t-lg"
                         />
-                        <span className="text-white font-bold p-2">Agencia de Marketing</span>
+                        <span className="text-white font-bold p-2">Spotify Interface com Angular</span>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <a className="text-white">Clique aqui para ver mais projetos</a>
             </div>
 
         </section>
