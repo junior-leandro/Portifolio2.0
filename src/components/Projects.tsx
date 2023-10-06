@@ -16,63 +16,75 @@ export function Projects() {
             </div>
             <div className="w-full max-w-[1800px] mt-6 flex flex-col items-center">
                 <div className="w-full flex items-center justify-around gap-6 px-8 cursor-pointer">
-                    
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
-                        <Image
-                            src={Projeto1}
-                            alt="banner"
-                            className=" rounded-t-lg"
-                        />
-                        <span className="text-white font-bold p-2">Landing Page da Alura Plus</span>
-                    </div>
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
-                        <Image
-                            src={Projeto2}
-                            alt="banner"
-                            className=" rounded-t-lg"
-                        />
-                        <span className="text-white font-bold p-2">Formulário de cadastro de cartão</span>
-                    </div>
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
-                        <Image
-                            src={Projeto3}
-                            alt="banner"
-                            className=" rounded-t-lg"
-                        />
-                        <span className="text-white font-bold p-2">Projeto consumindo API da Nasa com Next.JS</span>
-                    </div>
+                    <a href="https://github.com/junior-leandro/alura-plus" target="_blank" className="text-white font-bold p-2">
+                        <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
+                            <Image
+                                src={Projeto1}
+                                alt="banner"
+                                className=" rounded-t-lg"
+                            />
+                            <span className="text-white font-bold p-2">Landing Page da Alura Plus</span>
+                        </div>
+                    </a><a href="https://github.com/junior-leandro/Interactive-card-details-form" target="_blank" className="text-white font-bold p-2">
+                        <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
+                            <Image
+                                src={Projeto2}
+                                alt="banner"
+                                className=" rounded-t-lg"
+                            />
+                            <span className="text-white font-bold p-2">Formulário de cadastro de cartão</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/junior-leandro/next" target="_blank" className="text-white font-bold p-2">
+                        <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
+                            <Image
+                                src={Projeto3}
+                                alt="banner"
+                                className=" rounded-t-lg"
+                            />
+                            <span className="text-white font-bold p-2">Projeto consumindo API da Nasa com Next.JS</span>
+                        </div>
+                    </a>
                 </div>
 
                 <div className="w-full flex items-center justify-around gap-6 px-8 py-10 cursor-pointer">
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
-                        <Image
-                            src={Projeto4}
-                            alt="banner"
-                            className=" rounded-t-lg"
-                        />
-                        <span className="text-white font-bold p-2">MemoryGame com React</span>
-                    </div>
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
-                        <Image
-                            src={Projeto5}
-                            alt="banner"
-                            className=" rounded-t-lg"
-                        />
-                        <span className="text-white font-bold p-2">Formulário de NewsLetter</span>
-                    </div>
-                    <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
-                        <Image
-                            src={Projeto6}
-                            alt="banner"
-                            className=" rounded-t-lg"
-                        />
-                        <span className="text-white font-bold p-2">Spotify Interface com Angular</span>
-                    </div>
+                    <a href="https://github.com/junior-leandro/memorygame" target="_blank" className="text-white font-bold p-2">
+                        <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
+                            <Image
+                                src={Projeto4}
+                                alt="banner"
+                                className=" rounded-t-lg"
+                            />
+                            <span className="text-white font-bold p-2">MemoryGame com React</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/junior-leandro/newsletter" target="_blank" className="text-white font-bold p-2">
+                        <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
+                            <Image
+                                src={Projeto5}
+                                alt="banner"
+                                className=" rounded-t-lg"
+                            />
+                            <span className="text-white font-bold p-2">Formulário de NewsLetter</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/junior-leandro/my-spotify" target="_blank" className="text-white font-bold p-2">
+                        <div className="rounded-lg flex flex-col items-center bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 transition ease-in-out delay-150 hover:-translate-y-3 duration-150">
+                            <Image
+                                src={Projeto6}
+                                alt="banner"
+                                className=" rounded-t-lg"
+                            />
+                            <span className="text-white font-bold p-2">Spotify Interface com Angular</span>
+                        </div>
+                    </a>
                 </div>
             </div>
 
-            <div>
-                <a className="text-white">Clique aqui para ver mais projetos</a>
+            <div className="w-full h-full text-center">
+                <div className="w-4/5 mx-auto my-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
+                <a href="https://github.com/junior-leandro/" target="_blank" className="text-white text-lg p-2 border-2 rounded-xl">Clique aqui para ver mais dos meu projetos no GitHub</a>
+                </div>
             </div>
 
         </section>
