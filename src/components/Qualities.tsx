@@ -8,7 +8,7 @@ import Icone4 from "@/assets/icons-04.png"
 export function Qualities() {
     return (
         <section className="w-full h-64 flex flex-col items-center ">
-            <div className="w-full max-w-[1800px]  flex justify-around items-top text-primary-gray">
+            <div className="w-full max-w-[1800px] flex justify-around items-top text-primary-gray">
                 <div className="flex flex-col gap-4 w-1/5 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                     <Image src={Icone1} alt="icone 1" />
                     <h3 className="text-xl font-semibold">Desempenho Rápido</h3>

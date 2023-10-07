@@ -7,7 +7,7 @@ import { Qualities } from "./Qualities";
 
 export function SectionHero() {
     return (
-        <section className="w-full h-screen flex flex-col items-center">
+        <section className="w-full h-full flex flex-col items-center">
 
             <div className="w-full h-4/5 max-w-[1800px] flex justify-start">
                 <div className="w-1/2">

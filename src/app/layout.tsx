@@ -7,6 +7,7 @@ import { SectionHero } from '@/components/SectionHero'
 import { Qualities } from '@/components/Qualities'
 import { Portifolio } from '@/components/Portifolio'
 import { Projects } from '@/components/Projects'
+import { Sobre } from '@/components/Sobre'
 
 const lato = Lato({
   subsets: ['latin'],
@@ -37,6 +38,7 @@ export default function RootLayout({
         <SectionHero />
         <Portifolio />
         <Projects />
+        <Sobre />
       </body>
     </html>
   )
