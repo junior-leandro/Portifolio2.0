@@ -20,25 +20,30 @@ export function Header() {
                         <ul className="flex flex-row gap-8">
                             <li>
                                 <a href="#portifolio">
-                                <ItemMenu
-                                    name='Projetos' />
+                                    <ItemMenu name='Portifólio' />
                                 </a>
                             </li>
                             <li>
-                                <ItemMenu
-                                    name='Tecnologias' />
+                                <a href="#projetos">
+                                    <ItemMenu name='Projetos' />
+                                </a>
                             </li>
                             <li>
-                                <ItemMenu
-                                    name='Contato' />
+                                <a href='#tencologias'>
+                                    <ItemMenu name='Tecnologias' />
+                                </a>
                             </li>
                             <li>
-                                <ItemMenu
-                                    name='FAQ' />
+                                <a href='#sobre'>
+                                    <ItemMenu name='Sobre' />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contato">
+                                    <ItemMenu name='Contato' />
+                                </a>
                             </li>
                         </ul>
-
-
                     </div>
                     <div className="">
                         <ItemMenuSeecundary />

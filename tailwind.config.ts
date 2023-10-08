@@ -31,6 +31,10 @@ const config: Config = {
 
       },
     },
+    fontFamily: {
+      sans: ['Montserrat', 'sans-serif'],
+      heading: ['Poppins','sans-serif']
+    }
   },
   plugins: [],
 }

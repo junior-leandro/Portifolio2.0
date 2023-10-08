@@ -9,7 +9,7 @@ import Projeto6 from '@/assets/Spotify.jpg'
 
 export function Projects() {
     return (
-        <section className="w-full h-full flex flex-col items-center bg-primary-blue">
+        <section className="w-full h-full flex flex-col items-center bg-primary-blue" id="projetos">
             <div className="w-full hfull flex flex-col justify-center items-center my-10">
                 <h2 className="font-bold mt-6 mb-5 text-4xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">MEUS PROJETOS DE ESTUDO DESENVOLVIDOS</h2>
                 <span className="font-semibold text-primary-gray text-xl">Aqui listo alguns projetos que desenvolvi para estudo de tecnologias.</span>
@@ -83,7 +83,7 @@ export function Projects() {
 
             <div className="w-full h-full text-center">
                 <div className="shadow-xl w-1/2 min-w-[1000px] max-w-[1800px] mx-auto my-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
-                <a href="https://github.com/junior-leandro/" target="_blank" className="text-white text-lg p-2 border-2 rounded-xl">Clique aqui para ver mais dos meu projetos no GitHub</a>
+                <a href="https://github.com/junior-leandro/" target="_blank" className="text-white text-lg p-2 border-2 rounded-xl">Clique aqui para ver mais projetos meus no GitHub</a>
                 </div>
             </div>
 

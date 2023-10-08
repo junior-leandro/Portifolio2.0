@@ -8,11 +8,8 @@ import { Qualities } from '@/components/Qualities'
 import { Portifolio } from '@/components/Portifolio'
 import { Projects } from '@/components/Projects'
 import { Sobre } from '@/components/Sobre'
+import { Tecnologias } from '@/components/Tecnologias'
 
-const lato = Lato({
-  subsets: ['latin'],
-  weight: ['400', '700']
-})
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -32,13 +29,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR" className={montserrat.className}>
+    <html lang="pt-BR" className="scroll-smooth">
       <body className='bg-primary-blue w-full  h-full flex flex-col items-center'>
         <Header />
         <SectionHero />
         <Portifolio />
         <Projects />
         <Sobre />
+        <Tecnologias />
       </body>
     </html>
   )
