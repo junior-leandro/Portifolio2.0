@@ -6,7 +6,7 @@ export function Sobre() {
     return (
         <section className="w-full h-full bg-secundary-blue flex flex-col items-center" id="sobre">
             <div className="text-white flex flex-col items-center w-full max-w-[1800px]">
-                <h2 className="font-bold m-16 text-4xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">
+                <h2 className="font-bold m-16 text-6xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">
                     SOBRE MIM
                 </h2>
                 <div className="flex justify-center items-center mb-16">

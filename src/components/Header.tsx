@@ -5,7 +5,7 @@ import { ItemMenuSeecundary } from "./ItemMenuSecundary";
 
 export function Header() {
     return (
-        <header className="w-full h-20 bg-primary-blue">
+        <header className="w-full h-24 bg-primary-blue sticky top-0">
             <div className="w-full max-w-[1800px] p-4 mx-auto">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center gap-6">
@@ -29,7 +29,7 @@ export function Header() {
                                 </a>
                             </li>
                             <li>
-                                <a href='#tencologias'>
+                                <a href='#tecnologias'>
                                     <ItemMenu name='Tecnologias' />
                                 </a>
                             </li>
