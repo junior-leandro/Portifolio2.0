@@ -4,7 +4,7 @@ export function Tecnologias() {
     return (
         <section className="w-full h-full bg-neutral-200 p-16 flex flex-col items-center justify-center" id="tecnologias">
             <h2 className="font-bold mb-16 text-6xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">TECNOLOGIAS</h2>
-            <div className="w-full max-w-[1800px] flex flex-wrap gap-16 justify-center items-center">
+            <div className="w-full max-w-[1800px] flex flex-wrap gap-16 justify-center items-center pb-10">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" className={styles.img} title="Angular" />
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" className={styles.img} title="Next.JS" />
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" className={styles.img} title="Node.JS" />

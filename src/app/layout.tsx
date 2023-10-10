@@ -9,6 +9,7 @@ import { Portifolio } from '@/components/Portifolio'
 import { Projects } from '@/components/Projects'
 import { Sobre } from '@/components/Sobre'
 import { Tecnologias } from '@/components/Tecnologias'
+import { Contato } from '@/components/Contato'
 
 
 const montserrat = Montserrat({
@@ -37,6 +38,7 @@ export default function RootLayout({
         <Projects />
         <Sobre />
         <Tecnologias />
+        <Contato />
       </body>
     </html>
   )
