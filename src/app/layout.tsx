@@ -10,6 +10,7 @@ import { Projects } from '@/components/Projects'
 import { Sobre } from '@/components/Sobre'
 import { Tecnologias } from '@/components/Tecnologias'
 import { Contato } from '@/components/Contato'
+import { Footer } from '@/components/Footer'
 
 
 const montserrat = Montserrat({
@@ -39,6 +40,7 @@ export default function RootLayout({
         <Sobre />
         <Tecnologias />
         <Contato />
+        <Footer />
       </body>
     </html>
   )

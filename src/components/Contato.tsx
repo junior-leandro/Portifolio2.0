@@ -9,7 +9,7 @@ import ContactLogo from '@/assets/mail.png';
 
 export function Contato() {
     return (
-        <section className="w-full h-full p-5 flex flex-col items-center justify-center" id="contato">
+        <section className="w-full h-full p-6 flex flex-col items-center justify-center" id="contato">
             <div className="w-full max-w-[1000px] mx-3 flex flex-col items-center justify-center border-4 border-violet-700 rounded-2xl">
                 <Image 
                 src={JuniorLogo}
