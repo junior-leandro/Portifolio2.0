@@ -9,8 +9,8 @@ export function SectionHero() {
     return (
         <section className="w-full h-full flex flex-col items-center">
 
-            <div className="w-full h-4/5 max-w-[1800px] flex justify-start">
-                <div className="w-1/2">
+            <div className="w-full h-4/5 max-w-[1800px] block lg:flex justify-start">
+                <div className="w-full lg:w-1/2">
                     <div className="flex px-10 py-16  gap-20 items-center">
                         <div className="flex flex-col gap-2 items-left">
                             <Image
@@ -38,7 +38,7 @@ export function SectionHero() {
                     </div>
                 </div>
 
-                <div className="h-screen w-1/2 flex items-center justify-center">
+                <div className="h-screen w-full lg:w-1/2 hidden lg:flex items-center justify-center">
 
                     <GaleryLoop />
                 </div>

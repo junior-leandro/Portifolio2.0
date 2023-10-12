@@ -6,18 +6,19 @@ export function Sobre() {
     return (
         <section className="w-full h-full bg-secundary-blue flex flex-col items-center" id="sobre">
             <div className="text-white flex flex-col items-center w-full max-w-[1800px]">
-                <h2 className="font-bold m-16 text-6xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">
+                <h2 className="text-center font-bold m-16 text-5xl lg:text-6xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">
                     SOBRE MIM
                 </h2>
-                <div className="flex justify-center items-center mb-16">
+                <div className="flex flex-col xl:flex-row justify-center items-center gap-6 mb-16 mx-4">
 
                     <Image
                         src={myphoto}
-                        alt="Junior.Dev.Br" 
-                        className=" bg-yellow-300 rounded-full border-8 border-white"/>
+                        alt="Junior.Dev.Br"
+                        className=" bg-yellow-300 rounded-full border-8 border-white"
+                    />
                     <div>
-                        <p className="text-2xl mx-6">Olá, sou o Junior! Prazer em conheço-lo, e seja bem vindo ao meu portifólio!</p>
-                        <p className="text-xl text-justify m-6">
+                        <p className="text-xl lg:text-2xl text-center my-6">Olá, sou o Junior! Prazer em conheço-lo, e seja bem vindo ao meu portifólio!</p>
+                        <p className="text-base lg:text-xl text-justify my-6">
                             Sou de natural de Ubatuba, litoral norte de São Paulo onde nasci e ainda resido,
                             tenho 32 anos e estudo desenvolvimento frontend a aproximadamente um ano,
                             meu primeiro contato com desenvolvimento foi em 2013 quando fazia o curso tecnico de T.I no

@@ -16,7 +16,7 @@ export function Contato() {
                 alt="Logotipo Junior.Dev" 
                 width={200}
                 className='bg-primary-blue border-4 border-violet-700 rounded-3xl -mt-12'/>
-                <h2 className="font-bold m-16 text-6xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">VAMOS CONVERSAR?</h2>
+                <h2 className="font-bold m-16  text-center text-4xl lg:text-6xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">VAMOS CONVERSAR?</h2>
                 <div className='flex justify-center items-center gap-4 mb-16'>
                     <a href="https://github.com/junior-leandro" target="_blank" rel="noopener noreferrer">
                         <Image src={GitHubLogo}

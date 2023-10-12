@@ -16,8 +16,8 @@ export function Header() {
                                 width={200}
                             />
                         </a>
-                        <span className="text-primary-gray "> | </span>
-                        <ul className="flex flex-row gap-8">
+                        <span className="text-primary-gray hidden lg:block"> | </span>
+                        <ul className="hidden lg:flex lg:flex-row gap-8">
                             <li>
                                 <a href="#portifolio">
                                     <ItemMenu name='Portifólio' />
@@ -45,7 +45,7 @@ export function Header() {
                             </li>
                         </ul>
                     </div>
-                    <div className="">
+                    <div className="hidden lg:block">
                         <ItemMenuSeecundary />
                     </div>
                 </div>
