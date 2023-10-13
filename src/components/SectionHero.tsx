@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Rating from "@/assets/rating.png";
-import Trophy from "@/assets/trophy.png";
+import Rating from "../assets/rating.png";
+import Trophy from "../assets/trophy.png";
 
 import { GaleryLoop } from "./GaleryLoop";
 import { Qualities } from "./Qualities";

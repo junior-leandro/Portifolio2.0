@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import Portifolio1 from '@/assets/besthouses.jpg'
-import Portifolio2 from '@/assets/classicbarber.jpg'
-import Portifolio3 from '@/assets/juniordev.jpg'
-import Portifolio4 from '@/assets/mbconsult.jpg'
-import Portifolio5 from '@/assets/stereorock.jpg'
-import Portifolio6 from '@/assets/thiagaobarber.jpg'
+import Portifolio1 from '../assets/besthouses.jpg'
+import Portifolio2 from '../assets/classicbarber.jpg'
+import Portifolio3 from '../assets/juniordev.jpg'
+import Portifolio4 from '../assets/mbconsult.jpg'
+import Portifolio5 from '../assets/stereorock.jpg'
+import Portifolio6 from '../assets/thiagaobarber.jpg'
 
 export function Portifolio() {
     return (

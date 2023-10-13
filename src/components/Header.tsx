@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from '@/assets/logo-x_black.png'
+import Logo from '../assets/logo-x_black.png'
 import { ItemMenu } from "./ItemMenu";
 import { ItemMenuSeecundary } from "./ItemMenuSecundary";
 

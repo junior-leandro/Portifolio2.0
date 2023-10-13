@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Friendly from '@/assets/friendly.png'
-import Talk from '@/assets/talk-icon.png'
+import Friendly from '../assets/friendly.png'
+import Talk from '../assets/talk-icon.png'
 
 export function ItemMenuSeecundary() {
     return (

@@ -1,23 +1,15 @@
-import { Header } from '@/components/Header'
-import './globals.css'
-import type { Metadata } from 'next'
-import { Lato } from 'next/font/google'
-import { Montserrat } from 'next/font/google'
-import { SectionHero } from '@/components/SectionHero'
-import { Qualities } from '@/components/Qualities'
-import { Portifolio } from '@/components/Portifolio'
-import { Projects } from '@/components/Projects'
-import { Sobre } from '@/components/Sobre'
-import { Tecnologias } from '@/components/Tecnologias'
-import { Contato } from '@/components/Contato'
-import { Footer } from '@/components/Footer'
+import './globals.css';
+import type { Metadata } from 'next';
 
+import { Header } from '@/components/Header';
+import { SectionHero } from '@/components/SectionHero';
+import { Portifolio } from '@/components/Portifolio';
+import { Projects } from '@/components/Projects';
+import { Sobre } from '@/components/Sobre';
+import { Tecnologias } from '@/components/Tecnologias';
+import { Contato } from '@/components/Contato';
+import { Footer } from '@/components/Footer';
 
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  style: ['normal', 'italic'],
-  weight: ['400', '500', '700', '800', '900'],
-})
 
 
 export const metadata: Metadata = {
@@ -32,6 +24,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className='bg-primary-blue w-full  h-full flex flex-col items-center'>
         <Header />
         <SectionHero />

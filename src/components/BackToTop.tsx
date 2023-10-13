@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Seta from "@/assets/seta.png"
+import Seta from "../assets/seta.png"
 
 export function BackToTop(){
 

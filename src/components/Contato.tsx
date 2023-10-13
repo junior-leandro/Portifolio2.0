@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
-import JuniorLogo from '@/assets/logo-x_black.png'
-import GitHubLogo from '@/assets/github.png';
-import LinkedInLogo from '@/assets/linkedin.svg';
-import WhatsAppLogo from '@/assets/whatsapp.svg';
-import InstagramLogo from '@/assets/instagram.svg';
-import ContactLogo from '@/assets/mail.png';
+import JuniorLogo from '../assets/logo-x_black.png'
+import GitHubLogo from '../assets/github.png';
+import LinkedInLogo from '../assets/linkedin.svg';
+import WhatsAppLogo from '../assets/whatsapp.svg';
+import InstagramLogo from '../assets/instagram.svg';
+import ContactLogo from '../assets/mail.png';
 
 export function Contato() {
     return (

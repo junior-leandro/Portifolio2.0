@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import Banner1 from '@/assets/banner-01.png'
-import Banner2 from '@/assets/banner-02.png'
-import Banner3 from '@/assets/banner-03.png'
-import Banner4 from '@/assets/banner-04.png'
-import Banner5 from '@/assets/banner-05.png'
+import Banner1 from '../assets/banner-01.png'
+import Banner2 from '../assets/banner-02.png'
+import Banner3 from '../assets/banner-03.png'
+import Banner4 from '../assets/banner-04.png'
+import Banner5 from '../assets/banner-05.png'
 
 import styles from "@/app/banner.module.css"
 

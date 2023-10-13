@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import myphoto from "@/assets/junior.png"
+import myphoto from "../assets/junior.png"
 
 export function Sobre() {
     return (

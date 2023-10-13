@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import Icone1 from "@/assets/icons-01.png"
-import Icone2 from "@/assets/icons-02.png"
-import Icone3 from "@/assets/icons-03.png"
-import Icone4 from "@/assets/icons-04.png"
+import Icone1 from "../assets/icons-01.png"
+import Icone2 from "../assets/icons-02.png"
+import Icone3 from "../assets/icons-03.png"
+import Icone4 from "../assets/icons-04.png"
 
 export function Qualities() {
     return (

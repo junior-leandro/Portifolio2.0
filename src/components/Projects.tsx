@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import Projeto1 from '@/assets/AluraPlus.jpg'
-import Projeto2 from '@/assets/CardForms.jpg'
-import Projeto3 from '@/assets/NasaProject.jpg'
-import Projeto4 from '@/assets/memorygame.jpg'
-import Projeto5 from '@/assets/NewsLetter.jpg'
-import Projeto6 from '@/assets/Spotify.jpg'
+import Projeto1 from '../assets/AluraPlus.jpg'
+import Projeto2 from '../assets/CardForms.jpg'
+import Projeto3 from '../assets/NasaProject.jpg'
+import Projeto4 from '../assets/memorygame.jpg'
+import Projeto5 from '../assets/NewsLetter.jpg'
+import Projeto6 from '../assets/Spotify.jpg'
 
 export function Projects() {
     return (
