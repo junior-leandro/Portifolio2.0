@@ -11,7 +11,7 @@ export function Projects() {
     return (
         <section className="w-full h-full flex flex-col items-center bg-primary-blue" id="projetos">
             <div className="w-full hfull flex flex-col justify-center items-center my-10">
-                <h2 className="font-bold mt-6 mb-5 text-4xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text text-center">MEUS PROJETOS DE ESTUDO DESENVOLVIDOS</h2>
+                <h2 className="font-bold mt-6 mb-5 mx-2 text-4xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text text-center">MEUS PROJETOS DE ESTUDO DESENVOLVIDOS</h2>
                 <span className="font-semibold text-primary-gray text-xl text-center mx-2">Aqui listo alguns projetos que desenvolvi para estudo de tecnologias.</span>
             </div>
             <div className="w-full max-w-[1800px] h-full mt-6 flex flex-col items-center">
