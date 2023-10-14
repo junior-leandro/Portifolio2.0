@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import Projeto1 from '../assets/AluraPlus.jpg'
-import Projeto2 from '../assets/CardForms.jpg'
-import Projeto3 from '../assets/NasaProject.jpg'
-import Projeto4 from '../assets/memorygame.jpg'
-import Projeto5 from '../assets/NewsLetter.jpg'
-import Projeto6 from '../assets/Spotify.jpg'
+import Projeto1 from '../assets/AluraPlus.webp';
+import Projeto2 from '../assets/CardForms.webp';
+import Projeto3 from '../assets/NasaProject.webp';
+import Projeto4 from '../assets/memorygame.webp';
+import Projeto5 from '../assets/NewsLetter.webp';
+import Projeto6 from '../assets/Spotify.webp';
 
 export function Projects() {
     return (
