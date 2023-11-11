@@ -34,7 +34,7 @@ export function SectionHero() {
                             <span className="bg-gradient-radial from-pink-500 via-red-600 to-pink-500 text-transparent bg-clip-text font-bold">
                                 Tenha o site dos seus sonhos!</span>
                         </h1>
-                        <span className="text-xl"><strong>Desenvolvimento Frontend</strong> com tecnologias atualizadas</span>
+                        <span className="text-xl"><strong>Desenvolvimento Front End</strong> com tecnologias atualizadas</span>
                     </div>
                 </div>
 

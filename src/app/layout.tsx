@@ -14,7 +14,7 @@ import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'junior.dev.br | Portifólio',
-  description: 'Portifólio de Projetos Frontend',
+  description: 'Portifólio de Projetos Front End',
 }
 
 export default function RootLayout({

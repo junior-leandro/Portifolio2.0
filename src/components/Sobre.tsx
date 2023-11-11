@@ -20,14 +20,14 @@ export function Sobre() {
                         <p className="text-xl lg:text-2xl text-center my-6">Olá, sou o Junior! Prazer em conheço-lo, e seja bem vindo ao meu portifólio!</p>
                         <p className="text-base lg:text-xl text-justify my-6">
                             Sou de natural de Ubatuba, litoral norte de São Paulo onde nasci e ainda resido,
-                            tenho 32 anos e estudo desenvolvimento frontend a aproximadamente um ano,
+                            tenho 32 anos e estudo desenvolvimento front end a aproximadamente um ano,
                             meu primeiro contato com desenvolvimento foi em 2013 quando fazia o curso tecnico de T.I no
                             Centro Paula Souza e uma das matérias era desenvolvimento web. Foi amor a primeira vista!
                             A possibilidade de fazer algo atraente, funcional e útil, me fascinava.
                             Fiz alguns modelos de sites na época, usando HTML, CSS e JavaScript, e até me aventurei um pouco em PHP e SQL. Por motivos adversos, precisei deixar o curso técnico para trabalhar mas a paixão ficou ali
                             esperando a oportunidade de voltar aos estudos. <br />
                             No final de 2022 me matriculei na faculdade de Analise e Desenvolvimento de Sistemas pela Universidade
-                            Paulista (UNIP) e paralelamente comecei a estudar desenvolvimento frontend na ALURA, lá conheci um dos
+                            Paulista (UNIP) e paralelamente comecei a estudar desenvolvimento front end na ALURA, lá conheci um dos
                             professores, o Pedro Marins. O Pedro tem uma mentoria especifica para desenvolvedores iniciantes e eu participei desta mentoria,
                             foi um grande divisor na minha tragetória pois ao invés de ensinar a copiar código, na mentoria
                             aprendi a pensar como um dev e a procurar as soluções dos problemas dos códigos nos lugares certos. <br /><br />
