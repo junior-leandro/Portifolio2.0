@@ -17,7 +17,7 @@ export function Sobre() {
                         className=" bg-yellow-300 rounded-full border-8 border-white w-[50%] "
                     />
                     <div>
-                        <p className="text-xl lg:text-2xl text-center my-6">Olá, sou o Junior! Prazer em conheço-lo, e seja bem vindo ao meu portifólio!</p>
+                        <p className="text-xl lg:text-2xl text-justify my-6">Olá, sou o Junior! Prazer em conheço-lo, e seja bem vindo ao meu portifólio!</p>
                         <p className="text-base lg:text-xl text-justify my-6">
                             Sou de natural de Ubatuba, litoral norte de São Paulo onde nasci e ainda resido,
                             tenho 32 anos e estudo desenvolvimento front end a aproximadamente um ano,

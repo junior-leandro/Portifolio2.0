@@ -12,7 +12,7 @@ export function Portifolio() {
         <section className="bg-secundary-blue w-full flex flex-col items-center" id="portifolio">
             <div className="w-full flex flex-col justify-center items-center my-10">
                 <span className="font-bold mt-4 bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text">DEIXE O CÓDIGO COMIGO!</span>
-                <h2 className="font-bold mt-2 mb-5 text-4xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text text-center">SITES E PROJETOS FRONTEND DESENVOLVIDOS</h2>
+                <h2 className="font-bold mt-2 mb-5 text-4xl bg-gradient-radial from-blue-700 via-purple-500 to-pink-600 text-transparent bg-clip-text text-center">SITES E PROJETOS FRONT END DESENVOLVIDOS</h2>
                 <span className="font-semibold text-primary-gray text-base lg:text-xl text-center mx-1">Escolha entre meus estilos e personalize facilmente seu site seguindo suas ideias.</span>
                 <span className="font-semibold text-primary-gray text-base lg:text-xl text-center">Ou vamos começar um projeto do zero!</span>
             </div>

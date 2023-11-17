@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import JuniorLogo from '../assets/logo-x_black.png'
+import JuniorLogo from '../assets/junior-dev-logo-h-black.png'
 import GitHubLogo from '../assets/github.png';
 import LinkedInLogo from '../assets/linkedin.svg';
 import WhatsAppLogo from '../assets/whatsapp.svg';
