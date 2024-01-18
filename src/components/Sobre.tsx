@@ -20,7 +20,7 @@ export function Sobre() {
                         <p className="text-xl lg:text-2xl text-justify my-6">Olá, sou o Junior! Prazer em conheço-lo, e seja bem vindo ao meu portifólio!</p>
                         <p className="text-base lg:text-xl text-justify my-6">
                             Sou de natural de Ubatuba, litoral norte de São Paulo onde nasci e ainda resido,
-                            tenho 32 anos e estudo desenvolvimento front end a aproximadamente um ano,
+                            tenho 33 anos e estudo desenvolvimento front end a aproximadamente um ano,
                             meu primeiro contato com desenvolvimento foi em 2013 quando fazia o curso tecnico de T.I no
                             Centro Paula Souza e uma das matérias era desenvolvimento web. Foi amor a primeira vista!
                             A possibilidade de fazer algo atraente, funcional e útil, me fascinava.
