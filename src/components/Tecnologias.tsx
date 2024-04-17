@@ -1,5 +1,5 @@
 
-import Image from "next/image"
+import Image from "next/image";
 
 import Angular from "../assets/angularjs-original.svg";
 import NextJS from '../assets/nextjs-original.svg';

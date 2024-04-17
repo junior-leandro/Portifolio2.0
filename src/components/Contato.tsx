@@ -26,7 +26,7 @@ export function Contato() {
                             className='bg-white rounded-full p-1 transition ease-in-out delay-150 hover:scale-110 duration-300 cursor-pointer' />
                     </a>
 
-                    <a href="https://www.linkedin.com/in/junior-oliveira-leandro/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/junior-leandro/" target="_blank" rel="noopener noreferrer">
                         <Image src={LinkedInLogo}
                             alt="Logotipo do LinkedIn"
                             width={60}
